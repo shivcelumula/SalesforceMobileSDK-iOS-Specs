@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.name         = "SalesforceSDKCommon"
   s.version      = "12.2.0"
   s.summary      = "Salesforce Mobile SDK for iOS"
-  s.homepage     = "https://github.com/forcedotcom/SalesforceMobileSDK-iOS"
+  s.homepage     = "https://github.com/shivcelumula/SalesforceMobileSDK-iOS"
 
   s.license      = { :type => "Salesforce.com Mobile SDK License", :file => "LICENSE.md" }
   s.author       = { "Raj Rao" => "rao.r@salesforce.com" }
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.platforms    =  { :ios => "16.0", :visionos => "2.0" }
   s.swift_versions = ['5.0']
 
-  s.source       = { :git => "https://github.com/forcedotcom/SalesforceMobileSDK-iOS.git",
+  s.source       = { :git => "https://github.com/shivcelumula/SalesforceMobileSDK-iOS.git",
                      :tag => "v#{s.version}" }
 
   s.requires_arc = true
